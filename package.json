@@ -1,13 +1,13 @@
 {
-  "name": "binary-upload-boom",
+  "name": "therapist-connector",
   "version": "1.0.0",
-  "description": "100Devs Social Network",
+  "description": "Therapist Connector",
   "main": "server.js",
   "scripts": {
     "start": "nodemon server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Elisabeth Wolden",
   "license": "MIT",
   "dependencies": {
     "bcrypt": "^5.0.1",
