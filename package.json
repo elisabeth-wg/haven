@@ -1,7 +1,7 @@
 {
-  "name": "therapist-connector",
+  "name": "haven",
   "version": "1.0.0",
-  "description": "Therapist Connector",
+  "description": "Mental wellness resources",
   "main": "server.js",
   "scripts": {
     "start": "nodemon server.js",
