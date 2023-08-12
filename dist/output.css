@@ -598,6 +598,12 @@ video {
   padding: 0.5rem;
 }
 
-.text-center {
-  text-align: center;
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+
+.text-green-950 {
+  --tw-text-opacity: 1;
+  color: rgb(5 46 22 / var(--tw-text-opacity));
 }

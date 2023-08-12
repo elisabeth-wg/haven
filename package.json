@@ -5,7 +5,8 @@
   "main": "server.js",
   "scripts": {
     "start": "nodemon server.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:css" : "npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
   },
   "author": "Elisabeth Wolden",
   "license": "MIT",
