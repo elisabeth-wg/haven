@@ -16,6 +16,10 @@ module.exports = {
       colors: {
         'dark-green': '#29474A',
         'light-green': '#B0BDA2',
+      },
+      fontFamily: {
+        header: ['Montserrat'],
+        body: ['Karla']
       }
     },
   },
