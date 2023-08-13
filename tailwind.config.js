@@ -12,7 +12,12 @@ module.exports = {
     "./views/**/*.ejs"
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        'dark-green': '#29474A',
+        'light-green': '#B0BDA2',
+      }
+    },
   },
   plugins: [],
 }
