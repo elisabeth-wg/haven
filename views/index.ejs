@@ -1,21 +1,23 @@
 <%- include('partials/header') -%>
 
 <body>
-    <div class="border-2 border-light-green rounded-md bg-light-green w-80 mx-auto h-96">
+    <div class="border-2 border-light-green rounded-md bg-light-green w-80 mx-auto h-96 shadow-2xl">
         <header>
-            <div class="">
-                <div class="">
-                    <h1 class="text-3xl font-header text-dark-green mt-6"><a href="/profile">haven</a></h1>
-                </div>
-                <img src="" alt="">
-                <span class="text-white font-body mb-11">Mental Wellness Tools</span>
+            <div class="flex justify-center">
+                <img class="w-12 mt-6" src="/imgs/havenLogo.png" alt="logo">
+            </div>
+            <div class="flex justify-center">
+                <h1 class="text-3xl font-header text-dark-green"><a href="/profile">haven</a></h1>
+            </div>   
+            <div class="flex justify-center">
+                <span class="text-white font-body mb-1">Mental Wellness Tools</span>
             </div>
         </header>
 
         <main>
             <div class="flex justify-center items-end h-56">
-                <a href="/login" class="font-header btn bg-white text-dark-green hover:text-white hover:bg-dark-green w-20 mr-7 inline-flex items-center justify-center" role="button"> Login</a>
-                <a href="/signup" class="font-header btn bg-white text-dark-green hover:text-white hover:bg-dark-green w-20 ml-7 inline-flex items-center justify-center" role="button"> Signup</a>
+                <a href="/login" class="font-header btn bg-white text-dark-green hover:text-white hover:bg-dark-green w-20 mr-6 inline-flex items-center justify-center transition ease-out duration-500" role="button"> Login</a>
+                <a href="/signup" class="font-header btn bg-white text-dark-green hover:text-white hover:bg-dark-green w-20 ml-6 inline-flex items-center justify-center transition ease-out duration-500" role="button"> Signup</a>
             </div>
         </main>
     </div>
